@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --glow-color: rgba(255, 196, 0, 0.5);
+  }
+}
+
+body {
+  background-image: url('https://assets.cdn.filesafe.space/c3cmUrbBhdgs54adfIYP/media/655771bd1101682e3ff374b9.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Space Grotesk', sans-serif;
+}
